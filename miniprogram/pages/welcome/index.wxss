@@ -1,0 +1,32 @@
+page{
+  background-color: #dbdbdb;
+}
+button{
+  padding: 0rpx;
+  margin: 0rpx;
+  border: none;
+}
+button::after{
+   border: none;
+}
+image{
+  width: 750rpx;
+  height: 300rpx;
+  display: inline-block;
+  overflow: hidden;
+}
+.four-img{
+  width: 80rpx;
+  height: 80rpx;
+  margin: auto;
+}
+.row-model{
+  display: block;
+  padding: 40rpx;
+  text-align: center;
+  font-size: 20rpx;
+}
+.row-model image{
+  width: 80rpx;
+  height: 80rpx;
+}

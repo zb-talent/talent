@@ -1,0 +1,37 @@
+{
+  "pages": [
+   "pages/welcome/index",
+   "pages/company/index",
+   "pages/personal/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "常州市金坛区人才引育",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#e6e6e6",
+    "selectedColor":"#36a8fe",
+    "list": [{
+      "pagePath": "pages/welcome/index",
+      "text": "首页",
+      "iconPath": "images/welcome-IconPath.png",
+      "selectedIconPath": "images/welcome-selectedIconPath.png"
+    },
+    {
+      "pagePath": "pages/company/index",
+      "text": "企业服务",
+      "iconPath": "images/company-IconPath.png",
+      "selectedIconPath": "images/company-selectedIconPath.png"
+    },
+    {
+      "pagePath": "pages/personal/index",
+      "text": "我的",
+      "iconPath": "images/personal-IconPath.png",
+      "selectedIconPath": "images/personal-selectedIconPath.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json"
+}

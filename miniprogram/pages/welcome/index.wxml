@@ -1,0 +1,31 @@
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" circular='true' indicator-active-color='#36A8FE' duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+<van-row class="row-model">
+  <van-col span="6">
+  <button class='four-img'> 
+      <image src='/images/company.png'></image>
+  </button>
+     
+  <view>知名企业</view>
+ 
+  </van-col>
+  <van-col span="6">高薪</van-col>
+  <van-col span="6">高福利</van-col>
+  <van-col span="6">实习</van-col>
+</van-row>
+
+<view class="section">
+  <view class="section__title">省市区选择器</view>
+  <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+    <view class="picker">
+      当前选择：{{region[0]}}，{{region[1]}}，{{region[2]}}
+    </view>
+  </picker>
+</view>
+<van-button type="primary">按钮</van-button>
